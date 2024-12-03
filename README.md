@@ -1,6 +1,6 @@
 # XMind to ZenTao Converter (XMind 转 禅道测试用例转换工具)
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.6%2B-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 
@@ -147,8 +147,8 @@ pip install -r requirements.txt
 
 ## 📄 许可证 | License
 
-本项目采用  Apache License Version 2.0 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+本项目采用 Apache License Version 2.0 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
+This project is licensed under the Apache License Version 2.0 - see the [LICENSE](LICENSE) file for details
 
 ## 🤝 贡献 | Contributing
 
