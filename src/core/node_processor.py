@@ -114,8 +114,8 @@ class NodeProcessor:
         
         # 创建测试用例字典
         test_case = {
-            'module': self.current_module.lstrip('/'),  # 去除模块名开头的/
-            'title': title,  # 标题已经在传入时去除了/
+            'module': f"/{self.current_module.lstrip('/')}",  # 确保模块名带上/开头
+            'title': '-'.join(title.split('-')[1:]) if '-' in title else title,  # 去掉模块那一级
             'type': case_type,
             'priority': priority,
             'precondition': precondition,
